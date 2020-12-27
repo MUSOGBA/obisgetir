@@ -108,6 +108,7 @@ p {
 }
 
 #ourHistory p {
+    margin-top:100px;
     line-height: 28px;
 }
 /*--TAKIM --*/
@@ -128,6 +129,7 @@ p {
 /*--NELER YAPIYORUZ --*/
 
 #WeDo {
+    margin-top:100px;
     background: linear-gradient( rgba(0,0,0, .7), rgba(0,0,0, .7) ), url(../images/code.jpg);
     background-attachment: fixed;
     background-position: center;
