@@ -42,7 +42,7 @@ p {
 }
 
 #headerSection {
-    background: url('../images/bg.jpg') no-repeat center center fixed;
+    background: url('../images/is.jpg') no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
 }
@@ -129,7 +129,7 @@ p {
 /*--NELER YAPIYORUZ --*/
 
 #WeDo {
-    margin-top:100px;
+
     background: linear-gradient( rgba(0,0,0, .7), rgba(0,0,0, .7) ), url(../images/code.jpg);
     background-attachment: fixed;
     background-position: center;
@@ -169,8 +169,7 @@ p {
 }
 /**PORTFOLYO BÖLGESİ **/
 #portfolyo .col-md-3 {
-    padding-left: 0;
-    padding-right: 0;
+    padding:10px;
 }
 
 #portfolyo .h4 {
