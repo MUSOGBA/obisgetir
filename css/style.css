@@ -42,7 +42,7 @@ p {
 }
 
 #headerSection {
-    background: url('../images/is.webp') no-repeat center center fixed;
+    background: url('../images/is.jpg') no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
 }
@@ -78,6 +78,7 @@ p {
     
 }
 /*--KATEGORİ --*/
+
 #features .fa {
     font-size: 40px;
 }
@@ -117,6 +118,7 @@ p {
     opacity: 0.5;
     cursor: pointer;
     transition: all 0.5s ease;
+
 }
 
     #team .card:hover {
@@ -130,7 +132,7 @@ p {
 
 #WeDo {
 
-    background: linear-gradient( rgba(0,0,0, .7), rgba(0,0,0, .7) ), url(../images/code_arka.webp);
+    background: linear-gradient( rgba(0,0,0, .7), rgba(0,0,0, .7) ), url(../images/code.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -220,7 +222,7 @@ p {
 /**KAROSEL BÖLÜMÜ**/
 
 #testimanials {
-    background: linear-gradient( rgb(0,0,0, .7), rgb(0,0,0, .7) ), url(../images/tbg.webp);
+    background: linear-gradient( rgb(0,0,0, .7), rgb(0,0,0, .7) ), url(../images/tbg.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
