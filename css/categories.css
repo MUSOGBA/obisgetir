@@ -1,0 +1,226 @@
+﻿/*--GENERAL --*/
+h3 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+
+h2 {
+    font-size: 32px;
+    font-weight: 400;
+    color: darkslategray;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 14px;
+}
+
+/*--HOME --*/
+.navbar {
+    border-bottom: solid 5px #1886C7;
+}
+
+.navbar-brand {
+    color: white !important;
+    font-size: 26px;
+}
+
+.navbar-dark {
+    background: #000000 !important;
+}
+
+.nav-item .nav-link {
+    color: white !important;
+    text-transform: uppercase;
+    transition: color .5s ease;
+    margin-left: 2px;
+}
+
+.nav-link:hover {
+    color: darkgray !important;
+}
+
+#headerSection {
+    background: url('../images/education/education.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+    #headerSection .overlay {
+        background-color: rgba(0,0,0, .7);
+    }
+
+    #headerSection span {
+        color: #1886C7 !important;
+        text-decoration: underline;
+    }
+
+    #headerSection .row {
+        height: 100vh;
+    }
+
+.btn-outline-primary {
+    padding-left: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+    border-radius: 0;
+}
+
+.search {
+    background-color: none;
+}
+
+.container-fluid .d-flex .form-control {
+    margin-left: auto;
+}
+
+/* EĞİTİM KATEGORİLERİ*/
+
+#educategories{
+
+    margin-top: 50px;
+
+}
+
+#educategories .edu-header h2{
+    color:darkslategray;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+#educategories .services-name{
+
+    color:darkolivegreen;
+    font-size: small;
+}
+
+#educategories .card-img-top {
+
+    display:inline-flexbox;
+    
+
+}
+#educategories .card-text{
+
+font-size: small;
+
+}
+
+#educategories .card{
+
+   margin: 0.5rem;
+   border:solid 1px gray;
+   border-radius: 5px;
+    
+    }
+
+
+
+.services-name:hover{
+
+    color:darkslategray !important;
+
+}
+
+
+#all-categories .all-categories{
+
+margin-top: 50px;
+
+}
+
+/**ALT BÖLÜMÜ**/
+#Footer {
+    background-color: black;
+    color: white;
+    border-top: 5px solid #1886C7;
+    
+    
+}
+
+#Footer .col-12{
+
+    font-size: smaller;
+    padding: 0.3rem;
+    text-align: left;
+
+  
+}
+
+#Footer .col-sm-3 ul{
+   list-style: none;
+   padding: 0;
+   margin-top: 3px;
+   margin-bottom: 10px;
+   font-size: small;
+}
+
+#Footer .col-sm-3 i{
+
+size: 5rem;
+
+}
+
+#Footer .logo{
+    font-size: small;
+}
+
+
+.PY-5 {
+    padding-bottom: 100px !important;
+    padding-top: 100px !important;
+}
+
+
+
+
+
+/*MEDYA AYARLARI*/
+
+@media screen and (max-width:1200px) {
+    #ourHistory p {
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .display-3 {
+        font-size: 48px;
+    }
+
+    #ourHistory .btn {
+        position: relative;
+    }
+
+    .historyleft, .historyright {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .display-3 {
+        font-size: 32px;
+    }
+
+    .caseArea {
+        margin-right: 0px;
+    }
+
+    .caseİmage {
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    #portfolyo {
+        text-align: center;
+    }
+}
+
+
+
+@media screen and (max-width:576px) {
+    .display-3 {
+        font-size: 24px;
+    }
+}

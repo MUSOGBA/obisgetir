@@ -42,7 +42,7 @@ p {
 }
 
 #headerSection {
-    background: url('../images/is.jpg') no-repeat center center fixed;
+    background: url('../images/index/is.jpg') no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
 }
@@ -94,21 +94,21 @@ p {
 }
 /*--TARİH --*/
 
-#ourHistory h2 {
+#work h2 {
     border-left: 6px solid #1886C7;
     padding-left: 30px;
 }
 
-#ourHistory .col-md-6 {
+#work .col-md-6 {
     display: inline;
 }
 
-#ourHistory .btn-outline-primary {
+#work .btn-outline-primary {
     position: absolute;
     bottom: 0;
 }
 
-#ourHistory p {
+#work p {
     margin-top:100px;
     line-height: 28px;
 }
@@ -138,13 +138,13 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
 }
-/*--SEÇİM BÖLGESİ --*/
-#caseStudy {
+/*--İLAN VER BÖLGESİ --*/
+#advertise {
     background-color: #f4f5f9;
     line-height: 28px;
 }
 
-.caseArea {
+.advertiseArea {
     background-color: #fff;
     margin-top: 40px;
     margin-right: -40px;
@@ -154,37 +154,37 @@ p {
     min-height: 420px;
 }
 
-#caseStudy h3 {
+#advertise h3 {
     font-size: 18px;
     margin-top: 40px;
     margin-bottom: 40px;
     color: #1886C7;
 }
 
-#caseStudy .fa {
+#advertise .fa {
     font-size: 40px;
     color: #1886C7;
 }
 
-.caseİmage {
+.advertiseİmage {
     margin-left: -40px;
 }
 /**PORTFOLYO BÖLGESİ **/
-#portfolyo .col-md-3 {
-    padding:10px;
+#catalog .col-md-3 {
+    padding: 10px;
 }
 
-#portfolyo .h4 {
+#catalog .h4 {
     font-size: 16px;
     font-weight: 300;
 }
 
-#portfolyo .fa {
+#catalog .fa {
     font-size: 24px;
     margin-bottom: 20px;
 }
 
-#portfolyo.p {
+#catalog .p {
     font-size: 14px;
     font-weight: 300;
 }
